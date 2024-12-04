@@ -1,0 +1,66 @@
+.hero {
+    display: flex;
+    justify-content: center;  /* Vízszintesen középre igazítja a tartalmat */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 30, 60, 0.85); /* Sötétebb kék háttér */
+    color: #fff;  /* Fehér szöveg */
+    text-align: center;
+    padding: 50px 0; /* A slide egy kis helyet kap */
+    width: 100%;  /* Az egész szélesség */
+}
+
+.welcome-message {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;  /* Fehér szöveg */
+}
+
+.hero-slide {
+    display: flex;
+    justify-content: center;  /* Vízszintesen középre igazítja a tartalmat */
+    align-items: center;
+    width: 100%; /* Az egész oldal szélessége */
+    height: 500px; /* A slide magassága */
+    background-color: rgba(0, 50, 100, 0.7); /* Világosabb kék háttér a slide mögött */
+    border-radius: 10px; /* Lekerekített sarkok */
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-text {
+    max-width: 500px;
+    margin-right: 30px;
+    color: #fff; /* Fehér szöveg */
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 60%; /* A képet nagyobb szélességgel jelenítjük meg */
+    height: 80%;
+    display: flex;
+    justify-content: center;  /* Kép vízszintes középre igazítása */
+}
+
+.hero-image-img {
+    display: block;  /* Fontos, hogy block elem legyen */
+    width: 80%; /* Kép szélessége 100%-ra állítva */
+    height: auto; /* A kép magassága automatikusan igazodik a szélességhez */
+    margin: 0 auto; /* Kép középre igazítása */
+}
+
+.divider {
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    margin: 0 20px;
+}

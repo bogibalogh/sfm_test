@@ -1,0 +1,91 @@
+/* Alap háttér (teljes oldal háttér) */
+body {
+    background-color: rgba(0, 30, 60, 0.85);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Signup és login form körüli háttér */
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Oldal magasságának kitöltése */
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0077b3;  /* Sötétebb kék háttér a formhoz */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;  /* Fehér szöveg a sötét háttérrel */
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.auth-container input,
+.auth-container select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: lightblue;  /* Sötétebb kék háttér a mezőknek */
+    color: white;  /* Fehér szöveg a mezőkben */
+}
+
+.auth-container input:focus,
+.auth-container select:focus {
+    outline: none;
+    border-color: #007bff;  /* Kék szegély a fókuszáláskor */
+    background-color: #006bb3; /* Kék árnyalat fókuszáláskor */
+}
+
+.auth-container button {
+    padding: 12px;
+    background-color: #007bff;  /* Kék háttérszín */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.auth-container button:hover {
+    background-color: #0056b3;  /* Sötétebb kék hover hatás */
+}
+
+.auth-container p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.switch-link {
+    color: lightblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.switch-link:hover {
+    color: #0056b3;
+}
+
+.auth-message {
+    margin-top: 15px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

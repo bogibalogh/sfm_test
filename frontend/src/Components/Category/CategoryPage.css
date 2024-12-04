@@ -1,0 +1,56 @@
+/* CategoryPage CSS */
+
+.category-page {
+    display: flex;
+    justify-content: center;  /* Vízszintes középre igazítás */
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 30, 60, 0.85); /* Világos kék háttér */
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.comics-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Rugalmas oszlopok */
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.comic-item {
+    background-color: rgba(0, 50, 100, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.comic-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.comic-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.comic-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.comic-item p:last-child {
+    font-size: 18px;
+    font-weight: bold;
+}
